@@ -13,7 +13,7 @@ Here are the steps to how to set up and configure JD profile Lite.
 Download the JD profile Lite zip file package.
 Go to Extensions > Extension manager > Upload Package File.
 
-![Installation](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/installation.png)
+![Installation](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/installation.jpg)
 
 Note: There are more different ways to install the extension.
 
@@ -22,15 +22,15 @@ Note: There are more different ways to install the extension.
 1. First, go to Components menu -> JD profile
 2. Now, here you have to create teams and profiles for each team member.
 
-![Setup-component](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/setup-component.png)
+![Setup-component](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/setup-component.jpg)
 
 ### Add Team Member and Social Profile
 
 Click on the new button to add a profile. Now you will get a form to add a member's details which are to be displayed, here name is required field whereas others fields are optional. 
 'The team can be selected from listed dropdown options, the dropdown option will only be displayed when you have created the teams in the team menu. You can add social profile links for team members.'
 
-![Team New](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/team-new.png)
-![Team](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/team.png)
+![Team New](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/team-new.jpg)
+![Team](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/team.jpg)
 
 Option | Description
 ------------------ | -----------
@@ -43,13 +43,13 @@ Email |Email address of a member.
 Phone | Contact number of member.
 Location| location of the member.
 
-![Profile-new](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/profile-new.png)
-![Profile](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/profile.png)
+![Profile-new](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/profile-new.jpg)
+![Profile](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/profile.jpg)
 
 
 You can add Social profiles for each member or you can keep it blank if you don't want to display the social profiles while showcasing your team members. There is drag n drop functionality for ordering social profiles.
 
-![Social](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/social.png)
+![Social](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/social.jpg)
 
 
 
@@ -68,33 +68,33 @@ Grid Columns | Number of rows can be selected for the particular layout.
 Gutter Space | Padding (called a gutter) for controlling the space between the grid columns. Select between default, No margin and Custom.
 Display All | Either you can display all profiles or you can select a specific number of profiles to display.
 
-![jd-profile-module](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/jd-profile-module.png)
+![jd-profile-module](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/jd-profile-module.jpg)
 
 With different layouts. You can just choose any layout design which fits you best, to show your team attractively.
 
 #### Carousel Layout
 
-![carousel-layout-frontview](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/carousel-layout-frontview.png)
+![carousel-layout-frontview](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/carousel-layout-frontview.jpg)
 
 #### Grid layout
 
-![grid-layout](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/grid-layout.png)
+![grid-layout](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/grid-layout.jpg)
 
 #### List Layout
 
-![list-layout](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/list-layout-frontview.png)
+![list-layout](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/list-layout-frontview.jpg)
 
 #### Table Layout
 
-![Table-layout](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/table-layout-frontview.png)
+![Table-layout](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/table-layout-frontview.jpg)
 
 
 #### Options Settings
 This setting allows you to select which fields will show in view page just select “Yes” to show that field and “No” to hide the field. You can also customize the icon style and also the settings for social profile whether you want to open there social links to a new tab or same tab.
 
-![options](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/options.png)
+![options](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/options.jpg)
 
 #### Advanced settings
 Advanced settings allow you to enable FontAwesome for the template which does not have FontAwesome CSS if your template has font awesome CSS included then you can disable this option. Same goes with Bootstrap 4.
 
-![Advanced Settings](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/advanced.png)
+![Advanced Settings](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/advanced.jpg)
