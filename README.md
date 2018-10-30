@@ -68,33 +68,33 @@ Grid Columns | Number of rows can be selected for the particular layout.
 Gutter Space | Padding (called a gutter) for controlling the space between the grid columns. Select between default, No margin and Custom.
 Display All | Either you can display all profiles or you can select a specific number of profiles to display.
 
-[jd-profile-module](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/jd-profile-module.png)
+![jd-profile-module](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/jd-profile-module.png)
 
 With different layouts. You can just choose any layout design which fits you best, to show your team attractively.
 
 #### Carousel Layout
 
-[carousel-layout-frontview](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/carousel-layout-frontview.png)
+![carousel-layout-frontview](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/carousel-layout-frontview.png)
 
 #### Grid layout
 
-[grid-layout](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/grid-layout.png)
+![grid-layout](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/grid-layout.png)
 
 #### List Layout
 
-[list-layout](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/list-layout-frontview.png)
+![list-layout](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/list-layout-frontview.png)
 
 #### Table Layout
 
-[Table-layout](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/table-layout-frontview.png)
+![Table-layout](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/table-layout-frontview.png)
 
 
 #### Options Settings
 This setting allows you to select which fields will show in view page just select “Yes” to show that field and “No” to hide the field. You can also customize the icon style and also the settings for social profile whether you want to open there social links to a new tab or same tab.
 
-[options](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/options.png)
+![options](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/options.png)
 
 #### Advanced settings
 Advanced settings allow you to enable FontAwesome for the template which does not have FontAwesome CSS if your template has font awesome CSS included then you can disable this option. Same goes with Bootstrap 4.
 
-[Advanced Settings](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/advanced.png)
+![Advanced Settings](https://cdn.joomdev.com/documentation/jd-profiler/jd-profiler-lite/advanced.png)
