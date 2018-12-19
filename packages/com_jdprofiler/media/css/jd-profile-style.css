@@ -64,6 +64,7 @@
 .jd-profiler-wrapper .social-profile li {
 	display: inline-block;
 	margin: 0 5px;
+	border: none;
 }
 
 .jd-profiler-wrapper .social-profile li:first-child {
@@ -83,6 +84,10 @@
 	height: 40px;
 	font-size: 16px;
 	line-height: 1.1;
+}
+
+.jd-profiler-wrapper .social-profile li a:before {
+	content: none;
 }
 
 .jd-profiler-wrapper .social-profile.square li a {
@@ -111,6 +116,7 @@
 
 .jd-profiler-wrapper .contact-info li {
 	padding: 5px 0;
+	border: none;
 }
 
 .jd-profiler-wrapper .contact-info li i {
@@ -141,8 +147,8 @@
 
 .jd-profiler-wrapper .slick-dots li,
 .jd-profiler-wrapper .slick-dots button {
-	height: 30px;
-	width: 30px;
+	height: auto;
+	width: auto;
 }
 
 .jd-profiler-wrapper .slick-dots li button:before {
@@ -156,6 +162,16 @@
 	margin: auto;
 	right: 0;
 	bottom: 0;
+}
+
+.jd-profiler-wrapper .slick-dots {
+	bottom: auto;
+	position: relative;
+}
+
+.jd-profiler-wrapper .slick-dots li {
+	display: inline-block;
+	border: none;
 }
 
 .jd-carousel-layout-view.jd-carousel-simple-layout .jd-team-columns .jd-team-items .social-profile-wrapper,
@@ -425,60 +441,4 @@
 		width: 100% !important;
 		border: none;
 	}
-}
-
-@media (max-width: 767px) {
-	.team-details-single .team-mamber-image-wrapper {
-		margin-bottom: 30px;
-	}
-}
-
-.team-details-single .contact-info {
-	margin-bottom: 30px;
-}
-
-.team-details-single .team-single-details-text {
-	padding: 30px 0 0;
-}
-
-.team-details-single .team-skill-details .team-counter {
-	padding: 30px 0;
-}
-
-.team-details-single .team-skill-details .team-counter .team-count-number {
-	margin: 15px 0;
-}
-
-.team-details-single .blockquote {
-	width: 100%;
-	border: none;
-	position: relative;
-	text-align: center;
-	margin: 15px 0px 23px 0px;
-	padding: 53px 90px 57px;
-	background: #f9f9f9;
-}
-
-.team-details-single .blockquote::before,
-.team-details-single .blockquote::after {
-	position: absolute;
-	left: 0;
-	top: 0;
-	font-size: 83px;
-	line-height: 74px;
-	color: #eff0f0;
-	font-family: 'Font Awesome\ 5 Free';
-	font-weight: 900;
-}
-
-.team-details-single .blockquote::before {
-	content: "\f10d";
-}
-
-.team-details-single .blockquote::after {
-	content: "\f10e";
-	left: auto;
-	right: 0;
-	top: auto;
-	bottom: 0;
 }
