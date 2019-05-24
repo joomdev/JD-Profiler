@@ -168,7 +168,7 @@
                label="Sort by"
                showon="order:id[OR]order:name"
                description="MOD_JDPROFILER_SORT_BY_LABEL"
-               default="MOD_JDPROFILER_SORT_BY_DESC"
+               default="ASC"
                class="btn-group btn-group-yesno"
             >
                <option value="ASC">MOD_JDPROFILER_SORT_BY_OPTIONS_ASC</option>
