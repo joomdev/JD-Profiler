@@ -2,12 +2,12 @@
 <extension type="module" version="3.1" client="site" method="upgrade">
    <name>mod_jdprofiler</name>
    <author>JoomDev</author>
-   <creationDate>Dec 2018</creationDate>
-   <copyright>Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.</copyright>
+   <creationDate>June 2019</creationDate>
+   <copyright>Copyright (C) 2019 Joomdev, Inc. All rights reserved.</copyright>
    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
    <authorEmail>info@joomdev.com</authorEmail>
    <authorUrl>www.joomdev.com</authorUrl>
-   <version>1.1</version>
+   <version>1.3</version>
    <description>MOD_JDPROFILER_XML_DESCRIPTION</description>
    <updateservers>
 		<server type="extension" name="mod_jdprofiler" priority="1">https://cdn.joomdev.com/extensionupdates/mod_jdprofiler.xml</server>
@@ -43,12 +43,12 @@
                label="MOD_JDPROFILER_SELECT_TEMPLATE_LABEL"
                description="MOD_JDPROFILER_SELECT_TEMPLATE_DESC"
                default="grid_layout"
-            >
+                >
                <option value="grid_layout">MOD_JDPROFILER_SELECT_TEMPLATE_OPTION_GRID</option>
                <option value="carousel_layout">MOD_JDPROFILER_SELECT_TEMPLATE_OPTION_CAROUSEL</option>
                <option value="layout/list/list_layout">MOD_JDPROFILER_SELECT_TEMPLATE_OPTION_LIST</option>
                <option value="layout/table/table">MOD_JDPROFILER_SELECT_TEMPLATE_OPTION_TABLE</option>
-            </field>   
+            </field> 
             <field name="grid_template" type="jdthumbnailradio" label="MOD_JDPROFILER_SELECT_VIEW"  showon="template:grid_layout" description="MOD_JDPROFILER_SELECT_VIEW" default="layout/grid/grid_layout">
                 <option value="layout/grid/grid_layout">media/mod_jdprofiler/assets/images/layouts/layout-1.svg|  Grid Circle Layout</option>
                 <option disabled="true" value="grid_hover_layout">media/mod_jdprofiler/assets/images/layouts/layout-4.jpg|   Grid Hover Layout </option>
@@ -75,7 +75,7 @@
              </field>
             <field
                name="grid_coloumns"
-               type="list"
+               type="jdgrid"
 			    showon="template:grid_layout"
                label="MOD_JDPROFILER_GRID_COLUMNS_LABEL"
                description="MOD_JDPROFILER_GRID_COLUMNS_DESC"
@@ -88,6 +88,7 @@
                <option value="3">J4</option>
                <option value="2">J6</option>
             </field>
+
             <field
                name="grid_coloumns_carosuel"
                type="list"
@@ -168,7 +169,7 @@
                label="Sort by"
                showon="order:id[OR]order:name"
                description="MOD_JDPROFILER_SORT_BY_LABEL"
-               default="ASC"
+               default="MOD_JDPROFILER_SORT_BY_DESC"
                class="btn-group btn-group-yesno"
             >
                <option value="ASC">MOD_JDPROFILER_SORT_BY_OPTIONS_ASC</option>

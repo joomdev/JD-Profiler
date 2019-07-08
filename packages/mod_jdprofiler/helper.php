@@ -3,13 +3,14 @@
 /**
  * @package	JD profiler Module
  * @subpackage  mod_jdprofiler
- * @author	JoomDev
- * @copyright	Copyright (C) 2008 - 2018 Joomdev.com. All rights reserved
+ * @author	    JoomDev
+ * @copyright	Copyright (C) 2019 Joomdev, Inc. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 defined('_JEXEC') or die;
 $doc = JFactory::getDocument();
 // Style Sheet
+
 $doc->addStyleSheet(JURI::root().'media/mod_jdprofiler/assets/css/jd-profile-style.css');
 $doc->addStyleSheet(JURI::root().'media/mod_jdprofiler/assets/css/jdgrid.css');
 // Style Sheet
