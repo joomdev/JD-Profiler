@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS `#__jdprofiler_profiles` (
 `lbio` TEXT NOT NULL ,
 `team` VARCHAR(255)  NOT NULL ,
 `location` VARCHAR(255)  NOT NULL ,
-`social` VARCHAR(255)  NOT NULL ,
+`social` TEXT  NOT NULL ,
 `skills` TEXT NOT NULL ,
 `details` TEXT NOT NULL ,
 `ordering` INT(11)  NOT NULL ,

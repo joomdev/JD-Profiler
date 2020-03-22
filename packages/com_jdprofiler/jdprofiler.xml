@@ -7,7 +7,7 @@
     <author>JoomDev</author>
     <authorEmail>info@joomdev.com</authorEmail>
     <authorUrl>https://www.joomdev.com</authorUrl>
-    <version>1.2</version>
+    <version>1.3</version>
     <updateservers>
 		<server type="extension" name="com_jdprofiler" priority="1">https://cdn.joomdev.com/extensionupdates/com_jdprofiler.xml</server>
 	</updateservers>
@@ -18,11 +18,11 @@
             <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
         </sql>
     </install>
-    <update> <!-- Runs on update -->
-        <sql>
-            <file driver="mysql" charset="utf8">sql/update.mysql.utf8.sql</file>
-        </sql>
-    </update>
+	   <update> <!-- Runs on update -->
+		  <schemas>
+			 <schemapath type="mysql">sql/updates</schemapath>
+		  </schemas>
+	   </update>
     <uninstall> <!-- Runs on uninstall -->
         <sql>
             <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
