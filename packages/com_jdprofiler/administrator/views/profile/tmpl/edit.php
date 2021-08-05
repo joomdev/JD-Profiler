@@ -8,14 +8,13 @@
  */
 // No direct access
 defined('_JEXEC') or die;
-$jversion = ( new JVersion() )::MAJOR_VERSION;
 
 JHtml::addIncludePath(JPATH_COMPONENT . '/helpers/html');
 JHtml::_('bootstrap.tooltip');
 JHtml::_('formbehavior.chosen', 'select');
 JHtml::_('behavior.keepalive');
 
-if( $jversion < 4 ) {
+if( ( ( new JVersion() )::MAJOR_VERSION ) < 4 ) {
 	JHtml::_('behavior.formvalidation'); // J3
 } else {
 	JHtml::_('behavior.formvalidator'); // J4

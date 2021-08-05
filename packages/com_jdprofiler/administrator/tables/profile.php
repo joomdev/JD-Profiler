@@ -51,8 +51,10 @@ class JdprofilerTableprofile extends JTable
 	public function __construct(&$db)
 	{
 		parent::__construct('#__jdprofiler_profiles', 'id', $db);
-
-		JTableObserverContenthistory::createObserver($this, array('typeAlias' => 'com_jdprofiler.profile'));
+		
+		if( ( ( new JVersion() )::MAJOR_VERSION ) < 4 ) {
+			JTableObserverContenthistory::createObserver($this, array('typeAlias' => 'com_jdprofiler.profile'));
+		}
 
 		$this->created_on = JFactory::getDate()->toSql();
 		$this->setColumnAlias('published', 'state');
