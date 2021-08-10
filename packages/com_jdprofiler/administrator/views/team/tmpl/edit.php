@@ -10,10 +10,15 @@
 defined('_JEXEC') or die;
 
 JHtml::addIncludePath(JPATH_COMPONENT . '/helpers/html');
-JHtml::_('behavior.tooltip');
-JHtml::_('behavior.formvalidation');
+JHtml::_('bootstrap.tooltip');
 JHtml::_('formbehavior.chosen', 'select');
 JHtml::_('behavior.keepalive');
+
+if( ( ( new JVersion() )::MAJOR_VERSION ) < 4 ) {
+	JHtml::_('behavior.formvalidation'); // J3
+} else {
+	JHtml::_('behavior.formvalidator'); // J4
+}
 
 // Import CSS
 $document = JFactory::getDocument();
@@ -31,7 +36,7 @@ $document->addStyleSheet(JUri::root() . 'media/com_jdprofiler/css/form.css');
 		}
 		else {
 			
-			if (task != 'team.cancel' && document.formvalidator.isValid(document.id('team-form'))) {
+			if (task != 'team.cancel' && document.formvalidator.isValid(document.getElementById('team-form'))) {
 				
 				Joomla.submitform(task, document.getElementById('team-form'));
 			}

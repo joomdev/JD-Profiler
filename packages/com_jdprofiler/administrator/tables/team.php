@@ -29,7 +29,9 @@ class JdprofilerTableteam extends JTable
 	{
 		parent::__construct('#__jdprofiler_team', 'id', $db);
 
-		JTableObserverContenthistory::createObserver($this, array('typeAlias' => 'com_jdprofiler.team'));
+		if( ( ( new JVersion() )::MAJOR_VERSION ) < 4 ) {
+			JTableObserverContenthistory::createObserver($this, array('typeAlias' => 'com_jdprofiler.team'));
+		}
 
 		//$this->created_on = JFactory::getDate()->toSql();
 		$this->setColumnAlias('published', 'state');

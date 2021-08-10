@@ -49,7 +49,7 @@
                <option value="layout/list/list_layout">MOD_JDPROFILER_SELECT_TEMPLATE_OPTION_LIST</option>
                <option value="layout/table/table">MOD_JDPROFILER_SELECT_TEMPLATE_OPTION_TABLE</option>
             </field>   
-            <field name="grid_template" type="jdthumbnailradio" label="MOD_JDPROFILER_SELECT_VIEW"  showon="template:grid_layout" description="MOD_JDPROFILER_SELECT_VIEW" default="layout/grid/grid_layout">
+            <field name="grid_template" type="jdthumbnailradio" label="MOD_JDPROFILER_SELECT_VIEW" showon="template:grid_layout" description="MOD_JDPROFILER_SELECT_VIEW" default="layout/grid/grid_layout">
                 <option value="layout/grid/grid_layout">media/mod_jdprofiler/assets/images/layouts/layout-1.svg|  Grid Circle Layout</option>
                 <option disabled="true" value="grid_hover_layout">media/mod_jdprofiler/assets/images/layouts/layout-4.jpg|   Grid Hover Layout </option>
                 <option disabled="true" value="grid_hover_layout">media/mod_jdprofiler/assets/images/layouts/layout-4.jpg|   Grid Hover Layout </option>

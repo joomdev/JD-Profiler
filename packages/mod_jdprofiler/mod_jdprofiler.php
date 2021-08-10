@@ -37,7 +37,7 @@ if($display_all){
     $limit = $params->get('limit', 100);
 }
 
-$profilesClass  = new modJdprofilerHelper();
+$profilesClass  = new ModJDProfilerHelper();
 $profiles = $profilesClass->profiles($team,$limit,$sort,$order);
          
 require JModuleHelper::getLayoutPath('mod_jdprofiler', $layout);

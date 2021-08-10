@@ -20,7 +20,8 @@ if($params->get('load_fontawesome', 1)){
 	$doc->addStyleSheet('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
 }
 
-class modJdprofilerHelper {
+class ModJDProfilerHelper {
+
     public function profiles($team,$limit,$sort,$order){
         $db = JFactory::getDBO();
         $query = $db->getQuery(true);
@@ -41,5 +42,10 @@ class modJdprofilerHelper {
         $db->setQuery($query);
         $results = $db->loadObjectList();
         return $results;
+    }
+
+    public static function getJoomlaVersion() {
+        $jversion = new JVersion();
+        return $jversion::MAJOR_VERSION;
     }
 }

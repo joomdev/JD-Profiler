@@ -54,7 +54,7 @@ class JFormFieldJdthumbnailradio extends JFormFieldList
             'relative' => true,
             'conditional' => 'lt IE 9'
         ));
-        $format = '<input type="radio"  id="%1$s" name="%2$s" value="%3$s" %4$s />';
+        $format = '<input style="float:left;" type="radio"  id="%1$s" name="%2$s" value="%3$s" %4$s />';
         $alt    = preg_replace('/[^a-zA-Z0-9_\-]/', '_', $this->name);
         
         $html = '';
