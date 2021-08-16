@@ -2,12 +2,12 @@
 <extension type="module" version="3.1" client="site" method="upgrade">
    <name>mod_jdprofiler</name>
    <author>JoomDev</author>
-   <creationDate>April 2020</creationDate>
-   <copyright>Copyright (C) 2020 Joomdev, Inc. All rights reserved.</copyright>
+   <creationDate>August 2021</creationDate>
+   <copyright>Copyright (C) 2021 Joomdev, Inc. All rights reserved.</copyright>
    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
    <authorEmail>info@joomdev.com</authorEmail>
    <authorUrl>www.joomdev.com</authorUrl>
-   <version>1.3</version>
+   <version>1.4</version>
    <description>MOD_JDPROFILER_XML_DESCRIPTION</description>
    <updateservers>
 		<server type="extension" name="mod_jdprofiler" priority="1">https://cdn.joomdev.com/extensionupdates/mod_jdprofiler.xml</server>
